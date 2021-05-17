@@ -4,6 +4,7 @@ public class ArraysExample {
 
 	public static void main(String[] args) {
 	
+		System.out.println("\n=================================== Begin ===ArraysExample========================\n");
 		
 		//-----1-------
 		int i[] = new int[4];
@@ -133,6 +134,7 @@ public class ArraysExample {
 		}
 
 		
+		System.out.println("\n=================================== End ===ArraysExample========================\n");
 		//---------------
 
 	}

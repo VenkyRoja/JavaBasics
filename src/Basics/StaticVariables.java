@@ -8,6 +8,10 @@ public class StaticVariables {
 
 	public static void main(String[] args) {
 		
+		
+		System.out.println("\n=================================== Begin ===StaticVariables========================\n");
+		
+		
 		// -------- A) Calling static methods and variables------------
 		
 		staticMethod();                    // 1. direct calling
@@ -30,7 +34,7 @@ public class StaticVariables {
 		
 		//System.out.println(x.marks);   //Technically yes, you can access, but it is not good practice, gives a warning
 		
-		
+		System.out.println("\n=================================== End ===StaticVariables========================\n");
 	}
 
 	

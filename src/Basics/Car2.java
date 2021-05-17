@@ -8,6 +8,9 @@ public class Car2 {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===Car2========================\n");
+		
+		
 		Car2 a = new Car2();              // new Car() is the object
 		Car2 b = new Car2();              // Car is the class on the left hand side
 		Car2 c = new Car2();              // a is the reference to the object
@@ -39,6 +42,7 @@ public class Car2 {
 		System.out.println(b.model + " -- " + b.make + " -- " + b.year ); 
 		System.out.println(c.model + " -- " + c.make + " -- " + c.year ); 
 		
+		System.out.println("\n=================================== End ===Car2========================\n");
 		
 		
 	}

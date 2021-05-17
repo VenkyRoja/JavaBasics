@@ -2,12 +2,16 @@ package Basics;
 
 public class NonStaticLocalAndGlobalVariables {
 
+		
 	// Global non-static variables
 	String name = "Raja";
 	int    marks = 87;
 	
 	public static void main(String[] args) {
 	
+		
+		System.out.println("\n=================================== Begin ===NonStaticLocalAndGlobalVariables========================\n");
+		
 		int i = 78; //Local Variable of main method
 		System.out.println(" local variable in main, i = " + i);
 		
@@ -18,6 +22,9 @@ public class NonStaticLocalAndGlobalVariables {
 		System.out.println(" Global non-statoc variable in this class, marks = " + obj.marks);
 		
 		obj.anotherMethod();
+		
+		System.out.println("\n=================================== End ===NonStaticLocalAndGlobalVariables========================\n");
+		
 		
 	}
 	

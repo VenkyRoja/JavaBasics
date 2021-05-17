@@ -5,6 +5,8 @@ public class MethodsSample {
 	//---1----- main method = starting point of execution---------------
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===MethodsSample========================\n");
+		
 		MethodsSample m = new MethodsSample();
 		
 		m.printTest();
@@ -17,6 +19,8 @@ public class MethodsSample {
 		
 		double d = m.passParametersDivide(3, 2);
 		System.out.println(d);
+		
+		System.out.println("\n=================================== End ===MethodsSample========================\n");
 
 	}
 
