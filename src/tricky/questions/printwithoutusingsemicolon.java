@@ -4,6 +4,8 @@ public class printwithoutusingsemicolon {
 	
 	public static void main(String [] args) {
 	
+		System.out.println("\n=================================== Begin ===printwithoutusingsemicolon========================\n");
+		
 		/* Print "Hello World!" without
 		 * using a semicolon (;)
 		 */
@@ -15,7 +17,9 @@ public class printwithoutusingsemicolon {
 		if (System.out.append("Hello world!\n") == null) { }
 
 		//---Option 3------
-		if (System.out.append("Hello world!\n").equals(null)) { }		
+		if (System.out.append("Hello world!\n").equals(null)) { }	
+		
+		System.out.println("\n=================================== End ===printwithoutusingsemicolon========================\n");
 		
 	}
 }

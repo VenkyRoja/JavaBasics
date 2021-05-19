@@ -4,6 +4,8 @@ public class TestBank {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===TestBank========================\n");
+		
 		ICICIBank ic = new ICICIBank();
 		
 		ic.carLoan();
@@ -29,6 +31,7 @@ public class TestBank {
 		us.transferMoney();
 		us.trading();
 		
+		System.out.println("\n=================================== End ===TestBank========================\n");
 		
 		
 	}

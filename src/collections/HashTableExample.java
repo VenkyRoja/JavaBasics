@@ -10,6 +10,8 @@ public class HashTableExample {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===HashTableExample========================\n");
+		
 		Hashtable h = new Hashtable();
 		
 		h.put("a", "Hello");
@@ -108,6 +110,8 @@ public class HashTableExample {
 		h1.put(101, "Ranga");
 		h1.put(102, "Rajan");
 		h1.put(103, "Soma");
+		
+		System.out.println("\n=================================== End ===HashTableExample========================\n");
 		
 	}
 

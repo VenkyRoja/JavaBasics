@@ -2,7 +2,10 @@ package tricky.questions;
 
 public class integerCaching {
 
+	//-----1-----------
 	public static void main(String[] args) {
+		
+		System.out.println("\n=================================== Begin ===integerCaching========================\n");
 		
 		/*
 		 * Integer Caching:
@@ -38,10 +41,14 @@ public class integerCaching {
 		
 		num1 = 12;
 		num2 = 18;
-		compare(num1, num2);				
+		compare(num1, num2);	
+		
+		System.out.println("\n=================================== End ===integerCaching========================\n");
 		
 	}
 	
+	
+	//-----2----------
 	static void compare(Integer num1, Integer num2) {
 		
 		if (num1 == num2) {

@@ -4,6 +4,8 @@ public class testCar {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===testCar========================\n");
+		
 		// Static polymorphism = compile-time polymorphism
 		
 		System.out.println("\n-------static polymorphism-------------\n");
@@ -35,7 +37,7 @@ public class testCar {
 		//b1.theftSafety();  ---> Can NOT access child methods with dynamic polymorphism!!!
 		
 		
-		
+		System.out.println("\n=================================== End ===testCar========================\n");
 		
 	}
 

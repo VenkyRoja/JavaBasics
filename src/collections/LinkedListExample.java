@@ -7,6 +7,7 @@ public class LinkedListExample {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===LinkedListExample========================\n");
 		
 		LinkedList<String> A = new LinkedList<String>();
 		
@@ -149,6 +150,7 @@ public class LinkedListExample {
 		
 		System.out.println("-----------------------------");
 		
+		System.out.println("\n=================================== End ===LinkedListExample========================\n");
 		
 	}
 		

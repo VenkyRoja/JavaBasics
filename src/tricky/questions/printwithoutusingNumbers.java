@@ -4,6 +4,8 @@ public class printwithoutusingNumbers {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===printwithoutusingNumbers========================\n");
+		
 		/* Print 1 to 100
 		 * without using any numbers
 		 * for counting
@@ -31,6 +33,7 @@ public class printwithoutusingNumbers {
 		}
 		System.out.println();		
 		
+		System.out.println("\n=================================== End ===printwithoutusingNumbers========================\n");
 	}
 
 }

@@ -4,6 +4,8 @@ public class dividebyzero {
 	
 	public static void main(String [] args) {
 		
+		System.out.println("\n=================================== Begin ===dividebyzero========================\n");
+		
 		/* What is the output when divide by zero */
 		
 		//System.out.println("int / int0      : " + 3/0);       // int / int0        -- Arithmetic Exception
@@ -17,6 +19,8 @@ public class dividebyzero {
 		
 		System.out.println("double0 / double0 : " + 0.0/0.0);   // double0 / double0 -- NaN
 		System.out.println("double0 / int0    : " + 0.0/0);     // double0 / int0    -- NaN
+		
+		System.out.println("\n=================================== End ===dividebyzero========================\n");
 
 	}
 

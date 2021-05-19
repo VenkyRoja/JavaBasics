@@ -8,6 +8,8 @@ public class ArrayList2 {
 	public static void main(String[] args) {
 		
 		
+		System.out.println("\n=================================== Begin ===ArrayList2========================\n");
+		
 		ArrayList<String> A = new ArrayList<String>();
 		
 		A.add("Rama");
@@ -128,7 +130,7 @@ public class ArrayList2 {
 		
 		System.out.println("-----------------------------");
 		
-		
+		System.out.println("\n=================================== End ===ArrayList2========================\n");
 	}
 
 }

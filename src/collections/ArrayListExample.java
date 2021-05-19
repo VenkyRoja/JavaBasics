@@ -7,6 +7,8 @@ public class ArrayListExample {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===ArrayListExample========================\n");
+		
 		ArrayList al = new ArrayList();
 		
 		al.add(100);
@@ -103,7 +105,7 @@ public class ArrayListExample {
 		
 		System.out.println("----------------");
 	
-		
+		System.out.println("\n=================================== End ===ArrayListExample========================\n");
 		
 	}
 
