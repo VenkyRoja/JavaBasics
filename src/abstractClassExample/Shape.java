@@ -1,4 +1,4 @@
-package OOPabstractClass;
+package abstractClassExample;
 
 public abstract class Shape {
 	

@@ -4,6 +4,8 @@ public class testBank {
 
 	public static void main(String[] args) {
 		
+		System.out.println("\n=================================== Begin ===testBank========================\n");
+		
 		// If a class implements an interface, then that class must 
 		// implement / override all the methods of that interface.
 
@@ -31,7 +33,8 @@ public class testBank {
 		
 		System.out.println("Minimum balance = " + USPolicy.min_bal);
 		
-
+		System.out.println("\n=================================== End ===testBank========================\n");
+		
 	}
 
 }

@@ -1,4 +1,4 @@
-package OOPinterface;
+package interfaceExample2;
 
 public class ICICIBank implements USBank, IndianBank {
 

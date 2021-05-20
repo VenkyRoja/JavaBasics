@@ -1,4 +1,4 @@
-package OOPabstractClass;
+package abstractClassExample;
 
 public class Triangle extends Shape {
 	
