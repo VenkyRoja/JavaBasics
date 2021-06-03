@@ -212,7 +212,11 @@ public class StreamsExample {
 						
 					-- JDK 1.14 Features----
 						record keyword for data classes		
-						instanceOf 				
+						instanceOf 		
+						
+					-- JDK 1.15 Features----
+						Sealed classes 
+																
 			       """;
 		
 		System.out.println("\n----------");
@@ -233,6 +237,98 @@ public class StreamsExample {
 		myStudent ms = new myStudent("Krishna", 97, "M Eng");
 		System.out.println(ms.name() + "  " + ms.marks() + "   " + ms.myClass());
 		
+		var ms1 = new myStudent("Rama", 98, "M B B S");
+		System.out.println(ms1.name() + "  " + ms1.marks() + "   " + ms1.myClass());
+		
+		Object obj = new String("Arjuna");
+		
+		//-----Old way -- type casting--------------//
+		if (obj instanceof String) {
+			System.out.println("\nold way: obj is an instance of String -- type cast is needed ---, String = \"" + obj.toString() + "\", length = " + ((String) obj).length());
+		}
+		
+		//-----New way -- type casting is NOT required--------------//
+		if (obj instanceof String myStr) {
+			System.out.println("\nnew way: obj is an instance of String -- type cast is NOT needed ---, String = \"" + myStr + "\", length = " + myStr.length());
+		}
+
+		System.out.println("\n----------\n");
+		/*................................7.....................................*/
+		var text2 = """
+					-- JDK 1.15 Features----
+						Sealed classes 
+	       			""";
+		System.out.println(text2);
+		/*................................7.....................................*/	
+
+		var hsbc  = new HSBC();   //this class implemented sealed interface
+		var icici = new ICICI();   //this class implemented sealed interface
+		
+		System.out.println(hsbc.getName());
+		System.out.println(icici.getName());
+		
+		System.out.println("\n----------\n");
+		
+		
+		var text3 = """
+					In the below example of sealed interface of bank 
+					permits only HSBC and ICICI classes.
+				    
+					When a class HDFC is attempted to implement bank
+					interface, Java throws an error! 
+				    
+					//////////////////////////////////////////////
+					package collections;
+
+					public sealed interface bank permits HSBC, ICICI {
+						String getName();
+
+					}
+				    
+					//////////////////////////////////////////////
+					package collections;
+
+					public final class HSBC implements bank {
+
+						@Override
+						public String getName() {
+							return "HSBC";
+						}
+
+					}
+				    
+				    //////////////////////////////////////////////
+				    package collections;
+
+					public final class ICICI implements bank {
+
+						@Override
+						public String getName() {
+							return "ICICI";
+						}
+
+					}
+					
+					//////////////////////////////////////////////
+					package collections;
+
+					public final class HDFC implements bank {
+
+						@Override
+						public String getName() {
+							return "HDFC";
+						}
+
+					}
+                    
+					--------------------------------------------------------------
+					This class gives an error!!!!!
+					~~~~~~~ The type HDFC that implements a sealed interface bank 
+					should be a permitted subtype of bank ~~~~~~~
+					----------------------------------------------------------------
+       			    """;
+	    System.out.println(text3);
+		
 		System.out.println("\n=================================== End ====StreamsExample========================\n");
 		
 		
@@ -240,5 +336,7 @@ public class StreamsExample {
 
 	
 }
+
+
 
 
