@@ -1,4 +1,4 @@
-package Basics;
+package src.Basics;
 
 public class Car2 {
 	  
