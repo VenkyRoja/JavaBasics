@@ -1,4 +1,4 @@
-package ObjectExample;
+package src.ObjectExample;
 
 public class Car extends Vehicle {
 	
