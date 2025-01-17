@@ -1,4 +1,4 @@
-package ObjectExample;
+package src.ObjectExample;
 
 public class BMW extends Car {    // has-a relationship
 	
